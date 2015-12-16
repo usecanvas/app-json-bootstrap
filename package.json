@@ -1,0 +1,29 @@
+{
+  "name": "app-json-bootstrap",
+  "version": "1.0.0",
+  "description": "A bootstrapper that reads app.json",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usecanvas/app-json-bootstrap.git"
+  },
+  "keywords": [
+    "app.json",
+    "heroku",
+    "bootstrap"
+  ],
+  "author": "Jonathan Clem <jotclem@gmail.com>",
+  "bin": "./bin/index.js",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/usecanvas/app-json-bootstrap/issues"
+  },
+  "homepage": "https://github.com/usecanvas/app-json-bootstrap#readme",
+  "dependencies": {
+    "dotenv": "1.2.0",
+    "prompt": "0.2.14"
+  }
+}

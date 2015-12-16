@@ -1,0 +1,14 @@
+{
+  "extends": "canvas",
+  "env": {
+    "node": true
+  },
+  "ecmaFeatures": {
+    "generators": true,
+    "modules": false
+  },
+  "rules": {
+    "no-unused-vars": [2, {"argsIgnorePattern": "^_"}]
+  },
+  "parser": "espree"
+}
